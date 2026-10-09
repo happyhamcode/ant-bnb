@@ -85,6 +85,7 @@ The v2 will be built in Fusion 360. See `fusion360_conversion.md` for parameters
 v2 is a re-spec of the trap for a different bait container, built in Fusion 360 by script.
 The v1 Onshape FeatureScript above is kept for reference.
 
+- **Ready to slice**: `anttrap_v2_A1mini.3mf` is a slicer project with a base and lid pair laid out on a Bambu Lab A1 mini plate.
 - **Files**: `fusion_box_build.py` (Fusion API script, all parameters at the top), `anttrap_base.3mf` and
   `anttrap_lid.3mf` (print-ready, inches, lid already flipped plate-down).
 - **Interior**: 3.750 x 1.500 x 0.750 in. Walls 0.10, floor 0.15. Outer 3.950 x 1.700 x 0.900 in.
