@@ -74,3 +74,10 @@ design notes and `fusion360_conversion.md` for the build spec.
 | `handover.md`, `fusion360_conversion.md` | Design notes and build spec |
 
 Ant BnB is an independent project and a joke name. It isn't affiliated with or endorsed by Terro or Airbnb.
+
+## License
+
+Copyright (c) 2026 Happy Ham. Licensed under
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+You can print, share and remix it for non-commercial use, as long as you credit this project and share your
+changes under the same license. See [LICENSE](LICENSE).
