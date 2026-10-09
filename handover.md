@@ -93,7 +93,8 @@ The v1 Onshape FeatureScript above is kept for reference.
 - **Ant door + ramp + spill dam** at the +X end, -Y corner (carried over from v1). The floor is lowered in the
   stairwell so the ramp is one continuous 40 degree slope. Liquid must top the 0.25 in dam (~23 mL) to reach the door.
 - **Snap-fit lid**: 6 flex fingers (2 per long wall, 1 per end) with wedge bumps into wall grooves, plus a coin slot.
-  Clearance 0.008 in, bump 0.025 in: **untested on a printer**, tune `c` and `p` in the script.
+  Same snap values as v1 (clearance 0.008 in, bump 0.025 in), which printed and worked fine. The v2 lid is smaller, so if it
+  feels too tight, drop the bump (`p` in the script) to 0.02 in.
 - Dropped from v1: corner stops, screw ears, floor slots (container size unknown, countertop use only).
 - Orientation: floor on the XY plane (z = 0), +Z up, so a Y-up Fusion document shows it lying back.
 
