@@ -41,7 +41,7 @@ measured station size, so changing one input resizes the whole trap.
 
 There is no local build. The file only runs inside Onshape.
 
-1. `git clone https://github.com/happyhamcode/anttrap.git`.
+1. `git clone https://github.com/happyhamcode/ant-bnb.git`.
 2. In Onshape: open a Part Studio's document, **+ > Feature Studio**, name it e.g. `anttrap`.
 3. Paste the whole contents of `anttrap_shell.fs` over the default text. Onshape compiles on paste.
 4. In a Part Studio in the same document, click the feature toolbar's **Ant Trap Shell** (it appears under custom features).
@@ -78,7 +78,7 @@ The v2 will be built in Fusion 360. See `fusion360_conversion.md` for parameters
 
 ## Repo
 
-`https://github.com/happyhamcode/anttrap` (public), branch `main`.
+`https://github.com/happyhamcode/ant-bnb` (public), branch `main`.
 
 ## v2: Fusion 360 build (this is the current design)
 
