@@ -79,3 +79,24 @@ The v2 will be built in Fusion 360. See `fusion360_conversion.md` for parameters
 ## Repo
 
 `https://github.com/happyhamcode/anttrap` (private), branch `main`.
+
+## v2: Fusion 360 build (this is the current design)
+
+v2 is a re-spec of the trap for a different bait container, built in Fusion 360 by script.
+The v1 Onshape FeatureScript above is kept for reference.
+
+- **Files**: `fusion_box_build.py` (Fusion API script, all parameters at the top), `anttrap_base.3mf` and
+  `anttrap_lid.3mf` (print-ready, inches, lid already flipped plate-down).
+- **Interior**: 3.750 x 1.500 x 0.750 in. Walls 0.10, floor 0.15. Outer 3.950 x 1.700 x 0.900 in.
+- **Command strip recess** in the bottom: 3.70 x 1.00 x 0.06 in, open through the -X end (opposite the ramp)
+  so the strip's pull tab sticks out the back for removal.
+- **Ant door + ramp + spill dam** at the +X end, -Y corner (carried over from v1). The floor is lowered in the
+  stairwell so the ramp is one continuous 40 degree slope. Liquid must top the 0.25 in dam (~23 mL) to reach the door.
+- **Snap-fit lid**: 6 flex fingers (2 per long wall, 1 per end) with wedge bumps into wall grooves, plus a coin slot.
+  Clearance 0.008 in, bump 0.025 in: **untested on a printer**, tune `c` and `p` in the script.
+- Dropped from v1: corner stops, screw ears, floor slots (container size unknown, countertop use only).
+- Orientation: floor on the XY plane (z = 0), +Z up, so a Y-up Fusion document shows it lying back.
+
+### Rebuilding in Fusion
+Fusion MCP server must be running (it listens on `127.0.0.1:27182/mcp`). Run `fusion_box_build.py` in an empty
+design with the Fusion API (it defines `run(_context)`), or paste it into Scripts and Add-Ins.
