@@ -1,4 +1,6 @@
-# Ant Trap: spill-proof holder for liquid ant bait
+# Ant BnB
+
+**A spill-proof stay for liquid ant bait.** Ants check in, the bait stays put.
 
 A 3D-printable enclosure for [Terro T300 liquid ant bait stations](https://www.amazon.com/TERRO-T300-2-2-Pack-Liquid-Baits/dp/B00E4GACB8).
 The bait containers are easy to knock over and spill, which makes a sticky mess and defeats the point. This
@@ -71,4 +73,4 @@ design notes and `fusion360_conversion.md` for the build spec.
 | `anttrap_shell.fs` | v1 Onshape FeatureScript (Terro T300) |
 | `handover.md`, `fusion360_conversion.md` | Design notes and build spec |
 
-This is an independent project and isn't affiliated with Terro.
+Ant BnB is an independent project and a joke name. It isn't affiliated with or endorsed by Terro or Airbnb.
