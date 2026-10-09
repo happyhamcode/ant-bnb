@@ -72,6 +72,10 @@ Onshape is the source of truth while you iterate; the repo file is only the save
   Widening the door means widening `alley`.
 - Bump/groove geometry uses a rotated sketch plane per wall side (lines 507-516). Easiest place to introduce a sign error if you change wall sides.
 
+## Fusion 360
+
+The v2 will be built in Fusion 360. See `fusion360_conversion.md` for parameters, build order and computed coordinates.
+
 ## Repo
 
 `https://github.com/happyhamcode/anttrap` (private), branch `main`.
