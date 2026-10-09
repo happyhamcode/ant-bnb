@@ -4,6 +4,18 @@ A 3D-printable enclosure for [Terro T300 liquid ant bait stations](https://www.a
 The bait containers are easy to knock over and spill, which makes a sticky mess and defeats the point. This
 box holds the container upright, lets ants in, and keeps spills inside. It is meant for floors and countertops.
 
+<p align="center">
+  <img src="assets/renders/open.png" alt="Render of the box with the lid lifted off" width="720">
+</p>
+
+<p align="center">
+  <img src="assets/renders/closed.png" alt="Closed box" width="230">
+  <img src="assets/renders/door-end.png" alt="Ant door end" width="230">
+  <img src="assets/renders/bottom.png" alt="Underside with the command strip recess" width="230">
+</p>
+
+<p align="center"><em>Lid lifted off, closed, the ant door end, and the underside with the command strip recess.</em></p>
+
 ## Available at these major retailers
 
 Get the Terro T300 liquid ant baits here:
