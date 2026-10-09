@@ -82,7 +82,8 @@ The v2 will be built in Fusion 360. See `fusion360_conversion.md` for parameters
 
 ## v2: Fusion 360 build (this is the current design)
 
-v2 is a re-spec of the trap for a different bait container, built in Fusion 360 by script.
+v2 is a smaller trap for the TERRO T300 with its twist top removed (about 3.65 in long instead of 4.15 in overall),
+built in Fusion 360 by script.
 The v1 Onshape FeatureScript above is kept for reference.
 
 - **Ready to slice**: `anttrap_v2_A1mini.3mf` is a slicer project with a base and lid pair laid out on a Bambu Lab A1 mini plate.

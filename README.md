@@ -6,7 +6,8 @@ box holds the container upright, lets ants in, and keeps spills inside. It is me
 
 ## Features
 
-- **Fits the bait station**: 3.750 x 1.500 x 0.750 in interior (3.950 x 1.700 x 0.900 in outside).
+- **Fits the Terro T300 station** with its twist top removed (4.15 in overall, about 3.65 in without the top, 1.305 in wide,
+  0.44 in tall): 3.750 x 1.500 x 0.750 in interior (3.950 x 1.700 x 0.900 in outside).
 - **Ants in, spills out**: a ground-level door leads to a walled ramp that climbs over a spill dam before dropping into
   the tray. Liquid has to rise 0.25 in (about 23 mL, far more than a container holds) to reach the door.
 - **Snap-fit lid**: flex fingers with wedge bumps click into grooves in the walls. A coin slot lets you pry it open;
@@ -30,7 +31,7 @@ If the lid is too tight or loose, change `c` (snap clearance, default 0.008 in) 
 parameters at the top of the script, so changing the interior size, wall thickness or door size resizes everything.
 Run it in an empty design.
 
-The original v1 for the Terro T300 station is an Onshape FeatureScript, `anttrap_shell.fs`. See `handover.md` for
+The original v1 (for the full 4.15 in T300 with the top on) is an Onshape FeatureScript, `anttrap_shell.fs`. See `handover.md` for
 design notes and `fusion360_conversion.md` for the build spec.
 
 ## Files
